@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .conatiner{
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(175, 175, 175);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        
+            
+        }
+       
+        .conatiner-box{
+            height: 80%;
+            width: 100%;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.534)), url(./picture.png);
+           
+       
+           
+           
+            
+
+      
+      
+           
+          
+         
+        }
+        .navbar{
+            position: relative;
+            top: 20px;
+            display: flex;
+            height: 50px;
+            /* background-color: white; */
+            justify-content: space-between;
+
+            /* margin: 10px; */
+        }
+        .logo{
+            position: relative;
+            left: 20px;
+            height: 50px;
+            width: 200px;
+        }
+        .sign-in-btn{
+            position: relative;
+            right: 30px;
+            background-color: red;
+            color: white;
+            width: 90px;
+            height: 40px;
+            font-size: 15px;
+            border-radius: 10px;
+            padding: 1px;
+        }
+        .text{
+          
+            height: 400px;
+            width: 60vw;
+            border: 1px solid white;
+            margin: auto;
+            margin-top: 15%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+           
+            
+        }
+        .Text-Main{
+            font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .text-child{
+            font-size: 30px;
+            margin-top: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text-child2{
+            font-size: 25px;
+            margin-top: 30px;
+        }
+        .input-email{
+            height: 50px;
+            width: 500px;
+            margin-top: 30px;
+            background-color: transparent;
+            outline: none;
+            border: 2px solid grey;
+            color: white;
+        }
+        .input-email:focus{
+            border: 2px solid white;
+            border-style: double;
+        }
+
+
+        ::placeholder{
+            font-size: 20px;
+            position: relative;
+            left: 10px;
+        }
+
+        .btn-email{
+            height: 50px;
+            width: 150px;
+            /* padding: 15px; */
+            background-color: red;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="conatiner">
+                <div class="conatiner-box">
+                    <div class="navbar">
+                        <img src="./Logonetflix.png" alt="" class="logo">
+                        <button class="sign-in-btn">Sign In</button>
+                    </div>
+                    <div class="text">
+                      <p class="Text-Main">Unlimited movies, TV shows, and more</p>
+                      <p class="text-child">Watch anywhere. Cancel anytime.</p>
+                      <p class="text-child2">Ready to watch? Enter your email to create or restart your membership.</p>
+                      <input class="input-email" type="text" placeholder="Email address"> <button class="btn-email">Get Started ></button>
+                    </div>
+
+
+                </div>
+
+
+
+
+        </div>
+
+
+</body>
+</html>
