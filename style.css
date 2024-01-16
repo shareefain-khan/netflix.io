@@ -373,7 +373,6 @@
     }
     .conatiner{
         /* height: 100vh; */
-        margin: 5px;
     
         /* width: 100vw; */
         background-color: rgb(175, 175, 175);
@@ -443,6 +442,7 @@
     .Text-Main{
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
         
     }
     .text-child{
@@ -457,8 +457,8 @@
     }
     .input-email{
         
-        height: 50px;
-        width: 300px;
+        height: 45px;
+        width: 200px;
         background-color: transparent;
         outline: none;
         border: 2px solid grey;
@@ -483,11 +483,11 @@
     }
     
     .btn-email{
-        height: 50px;
-        width: 150px;
-        /* padding: 10px; */
+        height: 45px;
+        width: 120px;
+  
         background-color: red;
-        font-size: 18px;
+        font-size: 15px;
         color: white;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
@@ -507,27 +507,31 @@
        width: 100%;
        background-color: rgb(0, 0, 0);
        
+       
     
     }
     
     .box2{
         height: 100%;
         width: 100%;
-        background-color: rgb(59, 59, 59);
         margin: auto;
         display: flex;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-items: center;
+       
+        border: 1px solid white;
     }
     .text-box2{
             color: white;
-            border: 1px solid white;
-            text-align: center;
             position: relative;
-            right: 5%;
-            
+            top: 2%;
+            left: 0%;
+            text-align: center;
+
+            width: 90%;
+           
     }
     .main-text{
         font-size: 30px;
@@ -536,14 +540,16 @@
     }
     .main-child{
         margin-top: 10px;
-       font-size: 14px;
+       font-size: 15px;
        font-family: Arial, Helvetica, sans-serif;
+
+     
     }
     
     
     .box3{
-       height: 400px;
-       width: 600px;
+       height: 300px;
+       width: 500px;
        position: relative;
     }
     
@@ -561,19 +567,22 @@
         height: 80%;
         width: 70%;
         margin-top: 5%;
-        margin-left: 10%;
+        margin-left: 15%;
     
       
       
     }
     .container-box3{
         margin-top: 10px;
-        height: 700px;
+        height: 500px;
         width: 100%;
         background-color: rgb(0, 0, 0);
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
+       
+        
       
        
         
@@ -581,16 +590,18 @@
         
     }
     .picture{
-        height: 500px;
-        width: 600px;
-        /* border: 1px solid white; */
+        height: 250px;
+        width: 300px;
+        
+        position: relative;
+      
         
         
     }
     .text-boxx{
-        height: 500px;
-        width: 600px;
-        /* border: 1px solid rgb(0, 0, 0); */
+        height: 250px;
+        width: 300px;
+      
         align-items: center;
         text-align: justify;
         /* display: flex; */
@@ -599,28 +610,31 @@
     .mobile{
         height: 100%;
         width: 100%;
+        
+       
        
        
     }
     .picture-2{
-        position: relative;
-        bottom: 30%;
-        left: 15%;
+        position: absolute;
+        top: 70%;
+        left: 0%;
         /* border: 1px solid rgb(0, 17, 255); */
-        height: 100px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         display: flex;
         flex-wrap: wrap;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         color: white;
         align-items: center;
         border-radius: 15px;
+        box-shadow: 1px 1px 10px white;
     
     
     }
     .picture2{
         height: 80%;
-        margin-left: 10px;
+     margin-left: 10px;
         
        
         
@@ -646,7 +660,7 @@
     }
     .text-right{
         margin-top: 20%;
-        font-size: 50px;
+        font-size: 30px;
         word-spacing: 10px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: white;
@@ -656,7 +670,7 @@
     
     .text-right-2{
         margin-top: 5%;
-        font-size: 30px;
+        font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
        
@@ -664,26 +678,31 @@
     }
     .container-box4{
         margin-top: 10px;
-        height: 700px;
+        height: 300px;
         width: 100%;
         background-color: rgb(0, 0, 0);
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around;
+       
     }
     .box-4{
-        height: 400px;
-        width: 400px;
-        /* border: 1px solid white; */
+        height: 200px;
+        width: 300px;
+       
     }
     .container-box5{
         margin-top: 10px;
-        height: 700px;
+        height: 500px;
         width: 100%;
         background-color: rgb(0, 0, 0);
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
+      
     }
     
     .container-box6{
@@ -701,7 +720,7 @@
     }
     .box6{
         
-        height: 80px;
+        height: 70px;
         width: 80%;
         background-color: rgb(104, 104, 104);
         display: flex;
@@ -713,36 +732,43 @@
     }
     .text-boxe{
         margin: 15px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     .box7{
-        height: 150px;
-        width: 800px;
-        /* background-color: white; */
-        text-align: center;
-        align-items: center;
-      
+        height: 50px;
+        /* border: 1px solid white; */
+        
+
+    }
+    .text-boxs{
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
-        color: white;
+        border: none;
+        text-align: center;
+        outline: none;
     }
     .input-email-btn{
-        height: 50px;
-        width: 400px;
+        height: 45px;
+        width: 250px;
         border-radius: 10px;
         background-color: transparent;
         border: 2px solid rgb(109, 109, 109);
         outline: none;
+        display: block;
+       
     }
     .input-email-btn:focus{
         border: 2px solid white;
     }
     .btn-email-btn{
         background-color: red;
-        height: 50px;
-        width: 150px;
+        height: 45px;
+        width: 100px;
         border-radius: 10px;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
     }
 
 }
