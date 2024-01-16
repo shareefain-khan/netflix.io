@@ -318,6 +318,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 
     
 }
@@ -338,13 +339,14 @@
 }
 
 .box7{
-    height: 150px;
-    width: 800px;
+    height: 60px;
+    width: 80%;
     /* background-color: white; */
     text-align: center;
     align-items: center;
-  
+    /* border: 1px solid white; */
     font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 .input-email-btn{
@@ -354,6 +356,8 @@
     background-color: transparent;
     border: 2px solid rgb(109, 109, 109);
     outline: none;
+    color: white;
+    font-size: 20px;
 }
 .input-email-btn:focus{
     border: 2px solid white;
