@@ -426,13 +426,11 @@
     .text{
         width: 350px;
         height: 200px;
-        /* border: 1px solid white; */
-        /* margin: auto; */
+        
        
-        /* align-items: center; */
         border-radius: 10px;
         color: white;
-        /* text-align: center; */
+     
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
