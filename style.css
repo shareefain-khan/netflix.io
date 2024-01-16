@@ -410,7 +410,7 @@
     }
     .sign-in-btn{
         position: relative;
-        right: 15%;
+        right: 10%;
         background-color: red;
         color: white;
         width: 90px;
@@ -424,13 +424,10 @@
         cursor: pointer;
     }
     .text{
-        position: relative;
-        right: 5%;
-        height: 120px;
         width: 80vw;
         border: 1px solid white;
-        margin: auto;
-        margin-top: 15%;
+        /* margin: auto; */
+        margin-top: 5%;
         /* align-items: center; */
         border-radius: 10px;
         color: white;
@@ -445,23 +442,19 @@
     }
     .Text-Main{
         font-size: 25px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        word-spacing: 10px;
-        letter-spacing: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        
     }
     .text-child{
-        font-size: 20px;
-        margin-top: 30px;
+        font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .text-child2{
-        font-size: 20px;
-        margin-top: 30px;
+        font-size:18px;
     }
     .input-email{
         height: 50px;
         width: 300px;
-        margin-top: 30px;
         background-color: transparent;
         outline: none;
         border: 2px solid grey;
@@ -516,7 +509,7 @@
     .box2{
         height: 100%;
         width: 100%;
-        /* background-color: rgb(59, 59, 59); */
+        background-color: rgb(59, 59, 59);
         margin: auto;
         display: flex;
         align-items: center;
