@@ -864,9 +864,8 @@ li{
        
     }
     ul{
-        margin-top: 2%;
-        /* background-color: white; */
-       
+        margin-top: 3%;
+        /* border: 1px solid white; */
         height: 50%;
         width: 100%;
         flex-wrap: wrap;
@@ -878,10 +877,10 @@ li{
         
     }
     li{
-        margin: 0 8px;
+        margin: 0 9px;
         list-style-position: inside;
         /* background-color: aqua; */
-        width: 120px;
+        width: 100px;
         font-size: 15px;
         height: 50px;
         align-items: center;
@@ -891,9 +890,11 @@ li{
     
     }   
     .abcd{
-        height: 60px;
+        position: relative;
+       
+        height: 50px;
         width: 90%;
-        font-size: 25px;
+        font-size: 20px;
     }
     .btn-english{
        
